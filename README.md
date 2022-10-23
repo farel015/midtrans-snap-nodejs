@@ -1,2 +1,3 @@
-# midtrans-snap-nodejs
-midtrans integration 
+# midtrans-integration
+npm install --save midtrans-client
+

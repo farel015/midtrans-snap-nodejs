@@ -3,7 +3,7 @@ const midtransClient = require('midtrans-client');
 let snap = new midtransClient.Snap({
         // Set to true if you want Production Environment (accept real transaction).
         isProduction : false,
-        serverKey : 'YOUR_SERVER_KEY'
+        serverKey : 'YOUR_SERVER_KEY' //buat akun midtrans terlebih dahulu (server key + client key)
     });
  
 let parameter = {
